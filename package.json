@@ -1,0 +1,47 @@
+{
+  "name": "use-lanyard",
+  "version": "1.0.0",
+  "description": "React hook for real-time Discord user data via Lanyard API",
+  "author": "Your Name",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "discord",
+    "lanyard",
+    "api",
+    "websocket",
+    "real-time"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/use-lanyard"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/use-lanyard/issues"
+  },
+  "homepage": "https://github.com/yourusername/use-lanyard#readme",
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "typescript": "^5.5.3"
+  }
+}
