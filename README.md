@@ -1,5 +1,5 @@
 # use-lanyard
--# this was made by ai for my website lmao
+# this was made by ai for my website lmao
 
 A lightweight React hook for accessing real-time Discord user data via the [Lanyard API](https://lanyard.rest/).
 
